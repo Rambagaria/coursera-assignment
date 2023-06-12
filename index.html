@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .center{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        /* margin: 20px; */
+
+    }
+    .row {
+        /* width:200 px;
+        height:200 px; 
+        border: 1px solid black; */
+        /* background-color:rgb(61, 97, 24); */
+        width: 100%;
+        /* border: 1px solid black; */
+    /* border: 10px solid green; */
+     /* padding: 20px; */
+    /* margin: 10px; */ 
+    }
+    .column {
+  float: left;
+  width: 32%;
+  padding: 0px;
+  background-color: crimson;
+  border: 1px solid black;
+  margin: 7px;
+}
+    .sec{
+        margin-left: auto; 
+        margin-right: 0;
+        width: 25%;
+        text-align: center;
+        width: 60px;
+        height: 20px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+    }
+    /* div.row > div {
+        border:2 px solid black;
+    } */
+    @media (min-width:768px) and (max-width:991px){
+        .column{
+            /* background-color: black; */
+            width: 45%;
+        }
+    }
+    @media (min-width:992px){
+        .column{
+            /* background-color: white; */
+            width: 31%;
+        }
+    }
+    @media (MAX-width:767px){
+        .column{
+            /* background-color: yellow; */
+            width: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="center">Our Menu</div>
+    <div class="container-fluid" >
+        <div class="row">
+            
+            <div id="first" class="column">
+                <section class='sec' style="background-color: rgb(165, 87, 201);">Chicken</section>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste officiis quam obcaecati reiciendis corporis sint pariatur et? Odio facilis, libero porro eveniet quae alias ex neque veniam eos, hic distinctio.</div>
+        </div>
+        <div class="row">
+        <div id="second" class="column">
+            <section class='sec' style="background-color: rgb(86, 210, 219);">Beef</section>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste officiis quam obcaecati reiciendis corporis sint pariatur et? Odio facilis, libero porro eveniet quae alias ex neque veniam eos, hic distinctio.</div>
+        </div>
+    <div class="row">
+        <div id="third" class="column">
+            <section class='sec' style="background-color: rgb(216, 121, 160);">Sushi</section>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste officiis quam obcaecati reiciendis corporis sint pariatur et? Odio facilis, libero porro eveniet quae alias ex neque veniam eos, hic distinctio.</div>
+    </div>
+    </div>
+</body>
+</html>
